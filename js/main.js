@@ -1,11 +1,13 @@
 $(function() {
-    var mixer = mixitup('.gallery__filter');
-
+    
     $('.slider').slick({
-        infinite: true,
-        slidesToShow: 1,
         dots: true,
         arrows: false,
-        adaptiveHeight: true,
     });
+
+    $('.menu__btn').on('click',function(){
+        $('.menu__list').toggleClass('menu__list--active');
+    });
+
+    var mixer = mixitup('.gallery__filter');
 });

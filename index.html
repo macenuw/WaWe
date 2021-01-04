@@ -20,27 +20,35 @@
       <div class="logo">
         <img class="logo__img" src="images/logo.svg" alt=" Логотип">
       </div>
-
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="item__link" href="#"> О нас </a>
-        </li>
-        <li class="menu__item">
-          <a class="item__link" href="#"> Услуги </a>
-        </li>
-        <li class="menu__item">
-          <a class="item__link" href="#"> Стоимость </a>
-        </li>
-        <li class="menu__item">
-          <a class="item__link" href="#"> Блог </a>
-        </li>
-        <li class="menu__item">
-          <a class="item__link" href="#"> Команда </a>
-        </li>
-        <li class="menu__item">
-          <a class="item__link" href="#"> Контакты </a>
-        </li>
-      </ul>
+      <nav class="menu">
+        <button class="menu__btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
+            <path d="M0 0H30V2H0V0Z" fill="white"></path>
+            <path d="M0 8H30V10H0V8Z" fill="white"></path>
+            <rect y="16" width="30" height="2" fill="white"></rect>
+          </svg>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="item__link" href="#"> О нас </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="#"> Услуги </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="#"> Стоимость </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="#"> Блог </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="#"> Команда </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="#"> Контакты </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <div class="header__content box">
@@ -123,28 +131,35 @@
       <div class="school__items">
         <div class="item">
           <h3 class="item__title item__title--sun">проживание</h3>
-          <p>
-            Наша школа серфинга находится в 100 м от океанского побережья. К
-            услугам гостей открытый бассейн и бесплатный Wi-Fi. Из верхней
-            террасы открывается вид на океан. Расстояние до центра города 15
-            мин.
-          </p>
+          <div class="item__text-inner">
+            <p>
+              Наша школа серфинга находится в 100 м от океанского побережья. К
+              услугам гостей открытый бассейн и бесплатный Wi-Fi. Из верхней
+              террасы открывается вид на океан. Расстояние до центра города 15
+              мин.
+            </p>
+          </div>
         </div>
         <div class="item">
           <h3 class="item__title item__title--fly">перелет и страховку</h3>
-          <p>
-            Все участники программы застрахованы страховой компанией Allianz.<br>
-            Перелет из Тенерифе до острова Лансароте и обратно входит в
-            стоимость программы
-          </p>
+          <div class="item__text-inner">
+            <p>
+              Все участники программы застрахованы страховой компанией Allianz.
+            </p>
+            <p>Перелет из Тенерифе до острова Лансароте и обратно входит в
+              стоимость программы
+            </p>
+          </div>
         </div>
         <div class="item">
           <h3 class="item__title item__title--serf">обучение и экипировку</h3>
-          <p>
-            Все оборудование и экипировка известных производителей и
-            предоставляется на весь курс программы. Тренировочный процесс
-            начинается с определения вашего уровня катания
-          </p>
+          <div class="item__text-inner">
+            <p>
+              Все оборудование и экипировка известных производителей и
+              предоставляется на весь курс программы. Тренировочный процесс
+              начинается с определения вашего уровня катания
+            </p>
+          </div>
         </div>
       </div>
 
@@ -181,7 +196,7 @@
       </div>
     </div>
   </section>
-
+  <!--
   <section class="peaks" style="background-image: url('images/conquer-the-peaks-bg.jpg');">
     <div class="peaks__inner box">
       <div class="peaks__text">
@@ -270,73 +285,198 @@
     </div>
   </section>
 
-  <section class="blog-wrapper">
+  <section class="blog__wrapper">
     <h2 class="title blog__title">блог</h2>
-    <div class="slider">
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
-      </div>
-      <div class="slider__item">
-        <a class="slider__item-link" href="#">
-          <h3>что необходимо взять с собой на серф тур</h3>
-          <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
-        </a>
+    <div class="slider__wrapper">
+      <div class="slider box">
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="" class="slider__item-link">
+            <h3>что необходимо взять с собой на серф тур</h3>
+            <h4>ТОП 20 необходимых вещей для комфортного отдыха и обучения</h4>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
+  <section class="team box">
+    <h2 class="title team__title">наша команда</h2>
+    <div class="team__items">
+      <figure class="team_item">
+        <img class="item__img" src="./images/team-mike.jpg" alt="Инструктор Майк">
+        <figcaption class="item__text">
+          <h5 class="text__name">Mike</h5>
+          <p class="text__position">Главный инстуктор</p>
+        </figcaption>
+      </figure>
+      <figure class="team_item">
+        <img class="item__img" src="./images/team-mary.jpg" alt="Инструктор Мери">
+        <figcaption class="item__text">
+          <h5 class="text__name">Mary</h5>
+          <p class="text__position">Инстуктор</p>
+        </figcaption>
+      </figure>
+      <figure class="team_item">
+        <img class="item__img" src="./images/team-olga.jpg" alt="Инструктор Ольга">
+        <figcaption class="item__text">
+          <h5 class="text__name">Ольга</h5>
+          <p class="text__position">Инстуктор</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
 
+  <section class="service">
+    <h2 class="title service__title">наши услуги</h2>
+    <div class="service__items box">
+      <div class="items__card">
+        <header class="card__top">
+          <h3 class="card__title">Стандарт</h3>
+        </header>
+        <div class="card__list">
+          <ul class="list">
+            <li class="list__item">Проживание на вилле 6 ночей </li>
+            <li class="list__item">Номер категории стандарт</li>
+            <li class="list__item">Экипировка для обучения</li>
+            <li class="list__item">Обучение серфингу 5 тренировок по 2 часа</li>
+            <li class="list__item">Страховка</li>
+            <li class="list__item">Вечеринка с угощениями и дискотекой</li>
+          </ul>
+        </div>
+        <footer class="card__price">450 <sup>$</sup></footer>
+      </div>
+
+      <div class="items__card">
+        <header class="card__top">
+          <h3 class="card__title">Все включено</h3>
+        </header>
+        <div class="card__list">
+          <ul class="list">
+            <li class="list__item">Проживание на вилле 6 ночей </li>
+            <li class="list__item">Номер категории стандарт</li>
+            <li class="list__item">Экипировка для обучения</li>
+            <li class="list__item">Обучение серфингу 8 тренировок по 2 часа</li>
+            <li class="list__item">Страховка</li>
+            <li class="list__item">Вечеринка с угощениями и дискотекой</li>
+            <li class="list__item">Авиа перелет Тенерифе -Лансароте - Тенерифе </li>
+            <li class="list__item">Завтраки на вилле</li>
+          </ul>
+        </div>
+        <footer class="card__price">950 <sup>$</sup></footer>
+      </div>
+      <div class="items__card">
+        <header class="card__top">
+          <h3 class="card__title">Профи</h3>
+        </header>
+        <div class="card__list">
+          <ul class="list">
+            <li>Проживание на вилле 6 ночей </li>
+            <li>Номер категории стандарт</li>
+            <li>Экипировка для обучения</li>
+            <li>Обучение серфингу 16 тренировок по 2 часа</li>
+            <li>Страховка</li>
+            <li>Вечеринка с угощениями и дискотекой</li>
+            <li>Авиа перелет Тенерифе -Лансароте - Тенерифе </li>
+            <li>Завтраки и ужины на вилле</li>
+          </ul>
+        </div>
+        <footer class="card__price">1450 <sup>$</sup></footer>
+      </div>
+    </div>
+  </section>
+
+  <div class="service__map" style="background-image: url('./images/service-map.jpg');">
+  </div>
+
+  <section class="connection box">
+    <h2 class="title connection__title">оставить заявку</h2>
+    <div class="connection__inner">
+      <form class="form">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Телефон">
+        <textarea placeholder="Оставьте сообщение, и мы свяжемся с Вами в ближайшее время"></textarea>
+        <button type="submit">ОТПРАВИТЬ</button>
+      </form>
+      <div class="connection__info">
+        <p class="connection__info-text">
+          Есть вопрос?
+        </p>
+        <p class="connection__info-text">
+          Вы можете связаться с нами:
+        </p>
+        <div class="contact">
+          <a href="#">WhatsApp</a>, <a href="#">Viber</a>, <a href="#">Telegram</a>
+          <a href="tel:+34674863788">+3 467 486-37-88</a></div>
+        <address class="address">
+          Avenida grandes playas 79,
+          Corralejo la Oliva Fuerteventura,
+          Spain. 35660</address>
+      </div>
+    </div>
+    <div class="connection__social">
+      <a href="#">instagram</a>
+      <a href="#">facebook</a>
+      <a href="#">youtube</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+
+  </footer> -->
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/mixitup.min.js"></script>
