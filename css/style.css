@@ -488,36 +488,48 @@ body {
   margin-bottom: 229px;
 }
 
-.blog-wrapper {
-  margin-bottom: 200px;
+.blog__title {
+  margin-bottom: 230px;
 }
 
-.slider {
+.slider__wrapper {
   background-image: url('../images/blog-bg.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: rgba(36, 33, 33, 0.5);
-  max-width: 100%;
+  width: 100%;
   height: 800px;
+  margin-bottom: 200px;
+  position: relative;
 }
 
-.slider__item {
-  height: 100%;
-  margin-bottom: 259px;
+.slider__wrapper::before {
+  content: "";
+  background: rgba(36, 33, 33, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 0;
+  left: 0;
+}
+
+.slider__wrapper .slider__item {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .slider__item-link {
-  color: white;
+  margin-top: 314px;
   max-width: 600px;
-  display: block;
-  height: inherit;
+  z-index: 1;
+  margin-bottom: 259px;
 }
 
 .slider__item-link h3 {
   font-size: 48px;
   line-height: 1.2;
   font-weight: normal;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -525,13 +537,13 @@ body {
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
+  color: white;
 }
 
 .slick-dots {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  max-width: 285px;
+  justify-content: center;
 }
 
 .slick-dots button {
@@ -541,11 +553,12 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+  margin-left: 15px;
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.slick-active>button {
+.slick-active button {
   background-color: #00B2A0;
   min-width: 15px;
   min-height: 15px;
