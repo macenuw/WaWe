@@ -109,13 +109,19 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 35px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(36, 33, 33, 0.8);
+  min-height: 100px;
 }
 
 .logo {
   z-index: 10;
   position: absolute;
-  left: 10px;
+  left: calc(50% - 482px);
   top: 30px;
 }
 
@@ -340,7 +346,7 @@ body {
 }
 
 .gallery {
-  padding-bottom: 198px;
+  padding-bottom: 98px;
 }
 
 .gallery__title {
@@ -492,6 +498,10 @@ body {
   font-weight: 300;
 }
 
+.blog {
+  padding-top: 100px;
+}
+
 .blog__title {
   margin-bottom: 229px;
 }
@@ -507,7 +517,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 800px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   position: relative;
 }
 
@@ -573,6 +583,10 @@ body {
   min-height: 15px;
   opacity: 1;
   outline-color: transparent;
+}
+
+.team {
+  padding-top: 100px;
 }
 
 .team__title {
@@ -688,6 +702,10 @@ body {
   top: 300px;
   left: 50%;
   background-image: url('../images/Pin.png');
+}
+
+.connection {
+  padding-top: 100px;
 }
 
 .connection__title {
@@ -839,7 +857,7 @@ body {
     font-size: 56px;
   }
 
-  body{
+  body {
     font-size: 16px;
   }
 
@@ -876,6 +894,10 @@ body {
 
   .gallery__item {
     margin: 15px;
+  }
+
+  .blog {
+    padding-top: 30px;
   }
 }
 
@@ -1003,7 +1025,21 @@ body {
     font-size: 48px;
   }
 
-  .logo__img {
+  .info,
+  .school,
+  .peaks,
+  .gallery,
+  .service {
+    padding-top: 100px;
+  }
+
+  .header__top {
+    min-height: 100px;
+    background: rgba(36, 33, 33, 0.6);
+  }
+
+  .logo {
+    left: 30px;
     top: 20px;
   }
 
@@ -1013,8 +1049,8 @@ body {
     background-color: transparent;
     border: none;
     position: absolute;
-    right: 20px;
-    top: 35px;
+    right: 31px;
+    top: 37px;
     z-index: 4;
   }
 
@@ -1044,12 +1080,8 @@ body {
     margin-left: 0;
   }
 
-  .info {
-    padding: 60px 0;
-  }
-
   .school-inner {
-    padding: 60px 0;
+    padding: 0 0;
   }
 
   .school__info {
