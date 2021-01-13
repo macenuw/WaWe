@@ -839,6 +839,10 @@ body {
     font-size: 56px;
   }
 
+  body{
+    font-size: 16px;
+  }
+
   .info__text-inner {
     justify-content: center;
     margin-bottom: 50px;
@@ -931,6 +935,15 @@ body {
     margin: 15px;
   }
 
+  .service__card-list {
+    padding: 15px;
+  }
+
+  .service__card-top,
+  .service__price {
+    padding: 25px;
+  }
+
   .service__card-title,
   .service__price {
     font-size: 24px;
@@ -974,6 +987,7 @@ body {
     font-size: 14px;
     padding: 15px;
   }
+
   .connection__social {
     font-size: 16px;
     margin-bottom: 50px;
@@ -1179,7 +1193,6 @@ body {
   .info__text {
     max-width: 90%;
     text-align: center;
-    font-size: 14px;
   }
 
   .school__statistics {
