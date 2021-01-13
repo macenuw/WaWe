@@ -121,7 +121,7 @@ body {
 .logo {
   z-index: 10;
   position: absolute;
-  left: calc(50% - 482px);
+  left: calc(50% - 600px);
   top: 30px;
 }
 
@@ -161,7 +161,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  min-height: calc(100vh - 98px);
+  min-height: 100vh;
   padding-bottom: 92px;
 }
 
@@ -860,6 +860,11 @@ body {
   body {
     font-size: 16px;
   }
+  
+  .logo {
+    left: 30px;
+    top: 20px;
+  }
 
   .info__text-inner {
     justify-content: center;
@@ -1031,16 +1036,6 @@ body {
   .gallery,
   .service {
     padding-top: 100px;
-  }
-
-  .header__top {
-    min-height: 100px;
-    background: rgba(36, 33, 33, 0.6);
-  }
-
-  .logo {
-    left: 30px;
-    top: 20px;
   }
 
   .menu__btn {
