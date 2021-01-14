@@ -186,7 +186,7 @@ body {
 }
 
 .info {
-  padding: 188px 0 169px;
+  padding: 100px 0 169px;
 }
 
 .info__title {
@@ -214,7 +214,7 @@ body {
 }
 
 .school-inner {
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .school__title--margin {
@@ -503,10 +503,6 @@ body {
 }
 
 .blog__title {
-  margin-bottom: 229px;
-}
-
-.blog__title {
   margin-bottom: 230px;
 }
 
@@ -625,7 +621,7 @@ body {
 
 .service {
   background-color: #F8F8F8;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .service__title {
@@ -900,10 +896,6 @@ body {
   .gallery__item {
     margin: 15px;
   }
-
-  .blog {
-    padding-top: 30px;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -946,10 +938,6 @@ body {
   .team__item {
     max-width: 300px;
     margin: 15px;
-  }
-
-  .service {
-    padding-top: 50px;
   }
 
   .service__items {
@@ -1028,14 +1016,6 @@ body {
 
   .title::after {
     font-size: 48px;
-  }
-
-  .info,
-  .school,
-  .peaks,
-  .gallery,
-  .service {
-    padding-top: 100px;
   }
 
   .menu__btn {
