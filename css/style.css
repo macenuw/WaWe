@@ -476,6 +476,7 @@ body {
 .gallery__total-info {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   font-size: 64px;
   line-height: 1.2;
   font-weight: 700;
@@ -663,7 +664,6 @@ body {
   padding: 15px 30px;
   font-size: 14px;
   line-height: 1.2;
-  min-height: 315px;
 }
 
 .service__item+.service__item {
@@ -856,7 +856,7 @@ body {
   body {
     font-size: 16px;
   }
-  
+
   .logo {
     left: 30px;
     top: 20px;
@@ -875,6 +875,29 @@ body {
     max-width: 45%;
   }
 
+  .peaks {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+  }
+
+  .peaks__title {
+    margin-bottom: 30px;
+  }
+
+  .peaks__text {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 35px 15px 15px;
+  }
+
+  .peaks-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   .school__items {
     justify-content: center;
     flex-wrap: wrap;
@@ -889,11 +912,24 @@ body {
     margin: 10px 30px;
   }
 
+  .gallery__control {
+    justify-content: center;
+  }
+
   .gallery__filter {
     justify-content: center;
   }
 
   .gallery__item {
+    margin: 15px;
+  }
+    .service__items {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .service__card {
+    max-width: 330px;
     margin: 15px;
   }
 }
@@ -902,7 +938,6 @@ body {
 
   .info__title,
   .school__title--margin,
-  .peaks__title,
   .gallery__title,
   .blog__title,
   .team__title,
@@ -911,28 +946,10 @@ body {
     margin-bottom: 30px;
   }
 
-  .peaks {
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-    margin-bottom: 50px;
-  }
-
-  .peaks__text {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 35px 15px 15px;
-  }
-
-  .peaks-title {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
   .team__items {
     margin-bottom: 50px;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .team__item {
@@ -940,15 +957,7 @@ body {
     margin: 15px;
   }
 
-  .service__items {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 
-  .service__card {
-    width: 300px;
-    margin: 15px;
-  }
 
   .service__card-list {
     padding: 15px;
@@ -966,8 +975,9 @@ body {
 
   .service__map {
     height: 400px;
-    margin: 15px;
+    margin: 25px;
     margin-bottom: 50px;
+    border: 1px solid black;
   }
 
   .service__map::before {
@@ -1072,7 +1082,7 @@ body {
   }
 
   .gallery {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 
   .gallery__item {
@@ -1093,19 +1103,20 @@ body {
 
   .gallery__quote {
     font-size: 24px;
-    padding: 35px 40px;
+    padding: 35px 15px;
     margin-bottom: 30px;
   }
 
   .gallery__quote cite {
-    font-size: 10px;
-    bottom: -10px;
+    font-size: 14px;
+    bottom: -15px;
     left: 20%;
     display: block;
-    max-width: 206px;
+    max-width: 280px;
   }
 
   .gallery__video {
+    background-size: cover;
     height: 300px;
     margin-bottom: 50px;
   }
@@ -1153,32 +1164,12 @@ body {
 }
 
 @media (max-width: 685px) {
-
-  .header__text {
-    font-size: 120px;
-  }
-
-  .school__info-text {
-    margin: 20px;
-  }
-
-  .gallery__btn {
-    font-size: 16px;
-  }
-
-  .gallery__btn+.gallery__btn {
-    margin-left: 10px;
-  }
-
-  .gallery__quote {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 625px) {
-
   .title {
     font-size: 24px;
+  }
+
+  .header__text {
+    font-size: 88px;
   }
 
   .title::after {
@@ -1187,10 +1178,6 @@ body {
 
   .header__title {
     font-size: 15px;
-  }
-
-  .header__text {
-    font-size: 88px;
   }
 
   .info__text:nth-child(odd) {
@@ -1207,6 +1194,26 @@ body {
     margin: 20px;
   }
 
+  .school__info-text {
+    margin: 20px;
+  }
+
+  .gallery__btn {
+    font-size: 18px;
+  }
+
+  .gallery__btn+.gallery__btn {
+    margin-left: 10px;
+  }
+
+  .gallery__quote {
+    font-size: 16px;
+  }
+
+  .gallery__quote cite {
+    position: static;
+  }
+
   .gallery__total-info {
     font-size: 24px;
   }
@@ -1215,3 +1222,4 @@ body {
     margin-bottom: 0px;
   }
 }
+
