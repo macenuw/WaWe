@@ -19,13 +19,11 @@
     <div class="header__top">
       <a class="logo" href="#home"><img class="logo__img" src="images/logo.svg" alt=" Логотип"></a>
       <nav class="menu">
-        <button class="menu__btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
-            <path d="M0 0H30V2H0V0Z" fill="white"></path>
-            <path d="M0 8H30V10H0V8Z" fill="white"></path>
-            <rect y="16" width="30" height="2" fill="white"></rect>
-          </svg>
-        </button>
+        <div class="menu__btn-inner">
+          <button class="menu__btn menu__btn__animx">
+            <span>menu toggle</span>
+          </button>
+        </div>
         <ul class="menu__list">
           <li class="menu__item">
             <a class="menu__link" href="#about">О нас</a>
@@ -486,7 +484,7 @@
 
   <footer class="footer">
     <a class="footer__logo" href="#home"></a>
-  </footer> 
+  </footer>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/mixitup.min.js"></script>
