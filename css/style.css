@@ -128,8 +128,8 @@ body {
 .logo {
   z-index: 10;
   position: absolute;
-  left: 10px;
-  top: -10px;
+  left: 5px;
+  top: -1px;
 }
 
 .menu__btn {
@@ -169,7 +169,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
-  padding: 100px 0 92px;
+  padding: 100px 0 57px;
 }
 
 .header__title {
@@ -179,8 +179,9 @@ body {
   color: #000000;
   text-align: center;
   margin-top: auto;
-  margin-bottom: 315px;
+  margin-bottom: 324px;
   z-index: 2;
+  padding-right: 6px;
 }
 
 .header__text {
@@ -191,6 +192,7 @@ body {
   color: #0d302c;
   text-transform: uppercase;
   display: block;
+  padding-left: 49px;
 }
 
 .info {
@@ -220,10 +222,6 @@ body {
 .school {
   background-color: #f8f8f8;
   padding-top: 200px;
-}
-
-.school__inner {
-  padding: 100px 0;
 }
 
 .school__title {
